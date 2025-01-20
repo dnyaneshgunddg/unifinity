@@ -1,0 +1,1521 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: auto;
+    width: 100%;
+    float: left;
+    /* background-color: red; */
+}
+.menu{
+    height: auto;
+    width: 100%;
+    float: left;
+    /* background-color: black; */
+    position: absolute;
+    top: 0;
+
+}
+.top_menu{
+    height: auto;
+    width: 85%;
+    float: left;
+    /* background-color: yellow; */
+    margin-left: 5%;
+    margin-bottom: 8px;
+    border-bottom: 1px solid gray;
+}
+.top_menu_since,.top_menu_address{
+    height: auto;
+    width: 50%;
+    float: left;
+    cursor: default;
+}
+.top_menu_address ul{
+    margin-left: 38%;
+}
+.top_menu_address ul li{
+    display: inline-block;
+    margin-left: 5%;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.top_menu_since p{
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+/* Top Menu Ended */
+
+.main_menu{
+    height: 50px;
+    width: 90%;
+    float: left;
+    /* background-color: black; */
+    margin-left: 5%;
+    /* position: sticky;
+    top: 50px; */
+}
+.main_menu_logo{
+    height: auto;
+    width: 20%;
+    float: left;
+    /* background-color: green; */
+}
+.main_menu_logo img{
+    margin-top: 10px;
+}
+.main_menu_option{
+    height: 100%;
+    width: 60%;
+    float: left;
+    /* background-color: orange; */
+}
+.main_menu_option ul{
+    margin-left: 30%;
+}
+.main_menu_option ul li{
+    display: inline-block;
+    color: white;
+    margin-left: 3%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.main_menu_option ul li:hover{
+    transition: ease-in-out 0.5s;
+    border-bottom: 3px solid red;
+    /* text-decoration: underline solid red; */
+}
+.main_menu_btn{
+    height: auto;
+    width: 20%;
+    float: left;
+    /* background-color: skyblue; */
+}
+.main_menu_btn button{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    border: none;
+    margin-top: -5px;
+}
+.main_menu_btn i{
+    font-size: 25px;
+    color: white;
+    font-size: 25px;
+}
+/* Responsive */
+@media(max-width:667px){
+    /* .menu { } */
+    .top_menu {width: 30%; }
+    .main_menu {width: 50%;}
+    .main_menu_logo img{margin-top: 0px}
+    .main_menu_option,.main_menu_btn {height: ;}
+}
+
+/* Main menu ended */
+
+/* Slider area  */
+
+.slider_area{
+    height: 729px;
+    width: 100%;
+    float: left;
+    background-image: url('images/bg-slider_Truck_img.jpg');
+    background-size: cover;
+
+}
+.slider_area_blur{
+    height: 100%;
+    width: 100%;
+    float: left;
+    /* background-color: hsl(240, 100%, 20%,0.4); */
+}
+.slider_contain{
+    height: auto;
+    width: 50%;
+    float: left;
+    /* background-color: yellow; */
+    margin-top: 250px;
+    margin-left: 5%;
+    text-align: center;
+}
+.slider_contain h1{
+    font-size: 60px;
+    color: white;
+}
+.slider_contain p{
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+}
+.btn1{
+    height: 50px;
+    width: 130px;
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    border: none;
+    margin-left: 8px;
+    margin-top: 30px;
+}
+.btn1:hover{
+    background-color: white;
+    color: red;
+}
+.btn2{
+    height: 50px;
+    width: 130px;
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    border: none;
+    margin-left: 8px;
+    margin-top: 30px;
+}
+.btn2:hover{
+    background-color: red;
+}
+/* Responsive started */
+@media(max-width:667px){
+
+    .slider_area{width: 90%;}
+}
+/* Responsive ended */
+/* Slider area ended */
+
+
+.why_choose_us{
+    height: auto;
+    width: 100%;
+    float: left;
+    /* background-color: red; */
+}
+.why_choose_us_title{
+    height: auto;
+    width: 100%;
+    float: left;
+    /* background-color: purple; */
+    text-align: center;
+    margin-top: 50px;
+}
+.why_choose_us_title h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.why_choose_us_title p{
+    margin-top: 10px;
+    color: gray;
+}
+.why_choose_us_cards{
+    height: 600px;
+    width: 100%;
+    float: left;
+    /* background-color: red; */
+    margin-top: 50px;
+}
+/* card design started ///////////////////////////////////////////////////////*/
+
+.international{
+    height: 250px;
+    width: 25%;
+    float: left;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-left: 6%;
+}
+.international:hover{
+    background-image:url('images/card_1.jpg');
+    background-size: cover;
+    color: white;
+}
+.international_blur{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.international_blur:hover{
+    background-color: hsla(240, 50%, 10%, 0.8);
+    transition: ease-in-out 0.5s;
+
+}
+.international_blur:hover h2, .international_blur:hover p{
+    color: white;
+}
+.international_blur h2{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: black;
+
+}
+.international_blur p{
+    font-family: arial;
+    font-size: 16px;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.international_blur hr{
+    height: 4px;
+    width: 15%;
+    background-color: red;
+    margin-left: 21px;
+    border: none;
+}
+/* International ended -------------------------------------*/
+
+.ocean{
+    height: 250px;
+    width: 25%;
+    float: left;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-left: 6%;
+}
+.ocean:hover{
+    background-image:url('images/card_2.jpg');
+    background-size: cover;
+    color: white;
+}
+.ocean_blur{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.ocean_blur:hover{
+    background-color: hsla(240, 50%, 10%, 0.8);
+    transition: ease-in-out 0.5s;
+
+}
+.ocean_blur:hover h2, .ocean_blur:hover p{
+    color: white;
+}
+.ocean_blur h2{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: black;
+
+}
+.ocean_blur p{
+    font-family: arial;
+    font-size: 16px;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.ocean_blur hr{
+    height: 4px;
+    width: 15%;
+    background-color: red;
+    margin-left: 21px;
+    border: none;
+}
+
+/* ocean ended ----------------------------------------*/
+
+.warehouse{
+    height: 250px;
+    width: 25%;
+    float: left;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-left: 6%;
+}
+.warehouse:hover{
+    background-image:url('images/card_3.jpg');
+    background-size: cover;
+    color: white;
+}
+.warehouse_blur{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.warehouse_blur:hover{
+    background-color: hsla(240, 50%, 10%, 0.8);
+    transition: ease-in-out 0.5s;
+
+}
+.warehouse_blur:hover h2, .warehouse_blur:hover p{
+    color: white;
+}
+.warehouse_blur h2{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: black;
+
+}
+.warehouse_blur p{
+    font-family: arial;
+    font-size: 16px;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.warehouse_blur hr{
+    height: 4px;
+    width: 15%;
+    background-color: red;
+    margin-left: 21px;
+    border: none;
+}
+
+/* warehouse ended------------------------------------------------------ */
+
+.ground{
+    height: 250px;
+    width: 25%;
+    float: left;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-left: 6%;
+}
+.ground:hover{
+    background-image:url('images/card_4.jpg');
+    background-size: cover;
+    color: white;
+}
+.ground_blur{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.ground_blur:hover{
+    background-color: hsla(240, 50%, 10%, 0.8);
+    transition: ease-in-out 0.5s;
+
+}
+.ground_blur:hover h2, .ground_blur:hover p{
+    color: white;
+}
+.ground_blur h2{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: black;
+
+}
+.ground_blur p{
+    font-family: arial;
+    font-size: 16px;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.ground_blur hr{
+    height: 4px;
+    width: 15%;
+    background-color: red;
+    margin-left: 21px;
+    border: none;
+}
+/* ground ended-------------------------------------------------------------------------- */
+
+
+.customer{
+    height: 250px;
+    width: 25%;
+    float: left;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-left: 6%;
+}
+.customer:hover{
+    background-image:url('images/card_5.jpg');
+    background-size: cover;
+    color: white;
+}
+.customer_blur{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.customer_blur:hover{
+    background-color: hsla(240, 50%, 10%, 0.8);
+    transition: ease-in-out 0.5s;
+
+}
+.customer_blur:hover h2, .customer_blur:hover p{
+    color: white;
+}
+.customer_blur h2{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: black;
+
+}
+.customer_blur p{
+    font-family: arial;
+    font-size: 16px;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.customer_blur hr{
+    height: 4px;
+    width: 15%;
+    background-color: red;
+    margin-left: 21px;
+    border: none;
+}
+/* customer ended----------------------------------------------------------- */
+
+
+.aerospace{
+    height: 250px;
+    width: 25%;
+    float: left;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-left: 6%;
+}
+.aerospace:hover{
+    background-image:url('images/card_6.jpg');
+    background-size: cover;
+    color: white;
+}
+.aerospace_blur{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.aerospace_blur:hover{
+    background-color: hsla(240, 50%, 10%, 0.8);
+    transition: ease-in-out 0.5s;
+
+}
+.aerospace_blur:hover h2, .aerospace_blur:hover p{
+    color: white;
+}
+.aerospace_blur h2{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: black;
+
+}
+.aerospace_blur p{
+    font-family: arial;
+    font-size: 16px;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.aerospace_blur hr{
+    height: 4px;
+    width: 15%;
+    background-color: red;
+    margin-left: 21px;
+    border: none;
+}
+/* aerospace ended--------------------------------- */
+
+.why_choose_us_cards button{
+    height: 50px;
+    width: 180px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; 
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top: 30px;
+    
+}
+.why_choose_us_cards button:hover{
+    background-color: green;
+    transition: ease-in-out 0.6s;
+    text-decoration: underline white;
+    color: white;
+}
+.why_choose_us_cards button i{
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Responsive started */
+@media(max-width:667px){
+    
+    .slider_area{width: 80%;}
+    .why_choose_us{width: 100%;}
+    .why_choose_us_cards:
+    {width: 90%; margin-left: 5%;}
+}
+/* Responsive ended */
+/*            why chosse us---- cards ended          */
+
+.about_us_area {
+    height: 700px;
+    width: 100%;
+    float: left;
+    background-image: url('images/about_us_area_background.jpg');
+    background-size: cover;
+    margin-top: 130px;
+    
+}   
+.about_us_area_blur{
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-color: hsla(240, 50%, 10%, 0.9);
+}
+.about_us_area_contain{
+    height: 100%;
+    width: 45%;
+    float:left;
+    /* background-color: aqua; */
+    margin-left: 10%;
+}
+.about_us_area_contain h3{
+    color: red;
+    font-size: 25px;
+    text-decoration: underline solid red;
+    margin-top: 150px;
+}
+.about_us_area_contain h2 {
+    width: 70%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.about_us_area_contain p{
+    color: gray;
+    font-size: 22px;
+    width: 80%;
+    margin-top: 24px;
+}
+
+/* about us area contain ended */
+
+.about_us_area_cards{
+    height: 80px;
+    width: 90%;
+    float: left;
+    /* background-color: chartreuse; */
+    margin-top: 25px;
+}
+.about_us_area_cards ul li{
+    display: inline-block;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-left: 10px;
+
+}
+.about_us_area_cards ul li img{
+    height: 60px;
+    width: 120px;
+}
+/* .about_us_area_cards ended */
+
+.about_us_area_form{
+    height: 700px;
+    width: 30%;
+    float: left;
+    background-image: url('images/about_us_area_from_background.jpg');
+    background-size: cover;
+}
+.about_us_area_form h1{
+    color: white;
+    font-size: 35px;
+    margin-left: 30px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.about_us_area_form h3{
+    color: white;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.about_us_area_form input{
+    border: none;
+    outline: none;
+    width: 80%;
+    padding: 15px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.about_us_area_form input:hover{
+ box-shadow: 0px 0px 3px 3px black;
+ transition: ease-in-out 0.5s;
+}
+.about_us_area_form select{
+    border: none;
+    outline: none;
+    width: 87%;
+    padding: 15px;
+    margin-left: 30px;
+}
+.about_us_area_form select:hover{
+    box-shadow: 0px 0px 3px 3px black;
+    transition: ease-in-out 0.5s;
+}
+.about_us_area_form select{
+    color: gray;
+    padding: 15px;
+}
+.about_us_area_form button{
+    width: 87%;
+    padding: 15px;
+    background-color: #09152d;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px; 
+}
+.about_us_area_form button:hover{
+    background-color: green;
+    cursor: pointer;
+    transition:  ease-in-out 1s;
+}
+.up_arrow{
+    height: 55px;
+    width: 55px;
+    float: left;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 35%;
+}
+.up_arrow i{
+    font-size: 20px;
+    color: white;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+/* Responsive started */
+@media(max-width:667px){
+    .about_us_area{width: 90%;}
+    .about_us_area_form{width: 90%;}
+}
+/* Responsive ended */
+
+/* About us area ended------------------------------------------------- */
+
+.what_we_offer{
+    height: 700px;
+    width: 100%;
+    float: left;
+    /* background-color: yellow; */
+}
+.truck_img{
+    height: 700px;
+    width: 40%;
+    float: left;
+    /* background-color: red; */
+}
+.what_we_offer .truck_img img{
+    height: auto;
+    width: 100%;
+    margin-top: 80px;
+}
+/* what we offer truck img ended ------------------------------*/
+
+.what_we_offer_title_desc{
+    height: auto;
+    width: 50%;
+    float: left;
+    /* background-color: green; */
+}
+.what_we_offer_title_desc h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+    margin-top: 90px;
+}
+.what_we_offer_title_desc p{
+    color: gray;
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+/* .what_we_offer_title_des ended--------------------------- */
+
+.what_we_offer_contain1{
+    height: 150px;
+    width: 25%;
+    float: left;
+    /* background-color: skyblue; */
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.logo_1{
+    height: 85px;
+    width: 85px;
+    float: left;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: -110px;
+    animation-name: ani;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 50;
+}
+@keyframes ani{
+   10%{background-color: red;}
+   20%{background-color: green;}
+   30%{background-color: blue;}
+   40%{background-color: purple;}
+   50%{background-color: yellow;}
+   60%{background-color:  darkblue;}
+   70%{background-color: greenyellow;}
+   80%{background-color: black;}
+   90%{background-color: orange;}
+   100%{background-color: aqua;}
+}
+.logo_1:hover{
+    transform: scale(1.1,1.1);
+    transition: ease-in-out 0.5s;
+}
+
+.what_we_offer_contain1 img{
+    height: 50%;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.what_we_offer_contain1 h1{
+    margin-left: 110px;
+    font-size: 30px;
+}
+.what_we_offer_contain1 p{
+    margin-left: 110px;
+    margin-top: 10px;
+    color: gray;
+    font-size: 20px;
+}
+/* .what_we_offer ended----------------------------------*/
+
+/* our_team started */
+
+.our_team{
+    height: auto;
+    width: 100%;
+    float: left;
+    background-color:  #f3f4f6;
+}
+
+.our_team_title_desc{
+    height: auto;
+    width: 100%;
+    float: left;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+.our_team_title_desc h1{
+    font-size: 60px;
+    color: black;
+    margin-top: 100px;
+}
+.our_team_title_desc h1:hover{
+    color: green;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+.our_team_title_desc p{
+    color: gray; 
+    margin-top: 20px;
+}
+/* our_team_title_desc--------------------------------------- */
+
+.team{
+    height: 400px;
+    width: 20%;
+    float: left;
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.team_img{
+    height: 300px;
+    width: 100%;
+    float: left;
+    background-image: url('images/our_team_emp-1_.jpg');
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.team_img_blur{
+    height: 300px;
+    width: 100%;
+    float: left;
+    background-color: hsl(0, 6%, 7%,0.9);
+    display: none;
+}
+ 
+/* hover */
+.team:hover .team_img_blur{
+    transition:display 0.5s ease;
+    display: inline-block;
+}
+.team_icon{
+    margin-left: 10px;
+    margin-top: 150px;
+}
+.team_icon i{
+    color: white;
+    background-color: red;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.team_info{
+    height: 100px;
+    width: 100%;
+    float: left;
+    background-color: red;
+    display: none;
+}
+.team_info h1{
+    color: white;
+    margin-top: 20px;
+}
+/* hover */
+.team:hover .team_info {
+    transition: ease-in-out 0.5s;
+    display: inline;
+}
+/* ----team 1 ended-------------------------------------------------------- */
+
+.team2{
+    height: 400px;
+    width: 20%;
+    float: left;
+    /* background-color: red; */
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+.team2_img{
+    height: 300px;
+    width: 100%;
+    float: left;
+    background-image: url('images/our_team_emp-3.jpg');
+    background-size: cover;
+}
+
+.team2_img_blur{
+    height: 300px;
+    width: 100%;
+    float: left;
+    background-color: hsl(0, 6%, 7%,0.5);
+    /* display: none; */
+}
+/* hover */
+.team2:hover .team2_img_blur{
+    transition: ease-in-out 0.5s;
+    display: inline-block;
+}
+.team2_icon{
+    margin-left: 20px;
+    margin-top: 150px;
+}
+.team2_icon i{
+    color: white;
+    background-color: red;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.team2_info{
+    height: 100px;
+    width: 100%;
+    float: left;
+    background-color: red;
+    /* display: none; */
+}
+.team2_info h1{
+    color: white;
+    margin-top: 20px;
+}
+/* hover */
+.tea2m:hover .team_info {
+    transition: ease-in-out 0.5s;
+    display: inline;
+}
+/* team 2 img ended-------------------------------------------*/
+
+.team3{
+    height: 400px;
+    width: 20%;
+    float: left;
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.team3_img{
+    height: 300px;
+    width: 100%;
+    float: left;
+    background-image: url('images/our_team_emp-2.jpg');
+    background-size: cover;
+}
+
+.team3_img_blur{
+    height: 300px;
+    width: 100%;
+    float: left;
+    background-color: hsl(0, 6%, 7%,0.9);
+    display: none;
+}
+/* hover */
+.team3:hover .team3_img_blur{
+    transition: ease-in-out 0.5s;
+    display: inline-block;
+}
+.team3_icon{
+    margin-left: 10px;
+    margin-top: 150px;
+}
+.team3_icon i{
+    color: white;
+    background-color: red;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.team3_info{
+    height: 100px;
+    width: 100%;
+    float: left;
+    background-color: red;
+    display: none;
+}
+.team3_info h1{
+    color: white;
+    margin-top: 20px;
+}
+/* hover */
+.team3:hover .team3_info {
+    transition: ease-in-out 0.5s;
+    display: inline;
+}
+
+/* team 3 img ended---------------------------------------*/
+/* team img section ended ---------------------------------------*/
+
+.team_deadline{
+    height: 150px;
+    width: 100%;
+    float: left;
+    background-color: #09152d;
+    margin-top: 50px;
+    text-align: center;
+}
+.team_deadline h1{
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+
+}
+.team_deadline h2{
+    color: red;
+    font-size: 25px;
+    margin-top: 8px;
+}
+/* Our Team section ended----------------------------------- */
+
+
+.testimonials{
+    height: 500px;
+    width: 100%;
+    float: left;
+    /* background-color: yellow; */
+}
+
+.testimonials_title_desc{
+    height: auto;
+    width: 100%;
+    float: left;
+    /* background-color: green; */
+    margin-top: 80px;
+    text-align: center;
+}
+.testimonials_title_desc h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.testimonials_title_desc p{
+    margin-top: 5px;
+    color: gray;
+}
+/* testimonials_title_desc ended------------------------- */
+
+.testimonials_client_1{
+    height: 180px;
+    width: 30%;
+    float: left;
+    background-color: ;
+    margin-top: 50px; 
+    margin-left: 25px;
+    border-radius: 10px;
+    box-shadow:inset 0px 0px 40px 40px hsl(0, 2%, 76%);
+}
+.testimonials_client_1 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.testimonials_client_1 h3{
+    margin-left: 70px;
+    margin-top: -40px;
+}
+.testimonials_client_1 pre{
+    margin-left: 65px;
+    color: gray;
+    margin-top: 3px;
+}
+.testimonials_client_1 p{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    width: 90%;
+    color: gray;
+}
+.testimonials_client_1 .icon{
+   position: relative;
+   left: 380px;
+   top: -130px;
+}
+.testimonials_client_1 i{
+    background-color: red;
+    padding: 50px;
+}
+/* testimonials_clientsn 1,2 ended */
+.testimonials_btn{
+     height: 70px;
+     width: 5%;
+     float: left;
+     /* background-color: red; */
+     margin-left: 48%;
+     margin-top: 20px;
+}
+.testimonials_btn i{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 6px;
+    background-color: gray;
+}
+
+/* -Testimonials section ended---------------------------------------- */
+
+.frequently_asked_question{
+    height: 600px;
+    width: 100%;
+    float: left;
+    background-image: url('images/frequently_asked_question_BG_img.jpg');
+    background-size: contain;
+    /* background-color: yellow; */
+    cursor: pointer;
+}
+.question_title{
+    height: 600px;
+    width: 50%;
+    float: left;
+    /* background-color: green; */
+}
+.question_title h1{
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.question_sum{
+    height: 200px;
+    width: 60%;
+    float: left;
+    /* background-color: red; */
+    margin-left: 40%;
+    margin-top: 30px;
+}
+summary{
+    height: 40px;
+    background-color: white;
+    margin-top: 4px;
+}
+summary:hover{
+    background-color: red;
+}
+.content{
+    height: 130px;
+    background-color: white;
+    margin-top: 5px;
+}
+.content p{
+    width: 60%;
+    background-color: white;
+}
+.content img{
+    height: 120px;
+    width: 120px;
+    margin-left: 70%;
+    position: relative;
+    top: -107px;
+}
+
+/* frequently_asked_question ended-------------------------------- */
+
+
+.blog_article{
+height:700px;
+width: 50%;
+float: left;
+/* background-color: yellow; */
+}
+
+.blog_article_title{
+    height: auto;
+    width: 200px;
+    float: left;
+    /* background-color: red; */
+    margin-top: 10%;
+    margin-left: 50px;
+    margin-bottom: 10px;     
+}
+.blog_article_title h1{
+    color: white;
+    font-size: 30px;
+}
+
+.blog_article_sec{
+    height: 100px;
+    width: 70%;
+    float: left;
+    /* background-color: purple; */
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.blog_article_sec:hover .blog_info{
+    transition: 0.5s ease;
+    background-color: red;
+    color: #fff !important;
+}
+.blog_article_sec:hover .blog_info pre{
+    color: #fff !important;
+    transition: color 0.5s ease;
+}
+
+.blog_img{
+    height: 100%;
+    width: 25%;
+    float: left;
+    /* background-color: aqua; */
+}
+.blog_img img{
+    height: 100%;
+    width: 100%;
+}
+.blog_info{
+    height: 100px;
+    width: 70%;
+    float: left;
+    background-color: white;
+    margin-left: 10px;
+}
+.blog_info h3{
+    margin-top: 20px;
+    margin-left: 20px;     
+}
+.blog_info pre{
+    color: gray;
+    font-size: 12px;
+    margin-left:18px;
+    margin-top: 5px;
+}
+.map{
+    height: 300px;
+    width: 100%;
+    float: left;
+    background-color: red;
+}
+/* frequently asked question ans blog article section ended------------*/
+/* Responsive---------------------------------- */
+
+
+.contact_us{
+    height: auto;
+    width: 100%;
+    float: left;
+    /* background-color: yellowgreen; */
+    /* margin-top: 22%; */
+} 
+.contact_us_title{
+    height: 200px;
+    width: 100%;
+    float: left;
+    /* background-color: burlywood; */
+    text-align: center;
+}
+.contact_us_title h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.contact_us_title p{
+    color: gray;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+.contact_us_address{
+    height: 400px;
+    width: 25%;
+    float: left;
+    /* background-color: skyblue; */
+    margin-left: 10%;
+}
+.contact_us_address i{
+   color: black;
+   font-size: 30px;
+   padding-top: 50px;
+   margin-left: 80px;
+}
+.contact_us_address p{
+    margin-left: 130px;
+    margin-top: -30px;
+}
+.contact_us_address h3{
+    margin-left: 120px;
+    margin-top: -30px;
+    color: red;
+    text-decoration: underline  dashed black ;
+}
+/* conatac_us address ended----------------------------------- */
+
+
+.contact_us_form{
+    height: 400px;
+    width: 60%;
+    float: left;
+    /* background-color: red; */
+    margin-left: 5%;
+}
+.contact_us_form input{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40%;
+    background-color: #e8ebf0;    
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.contact_us_form input:hover{
+    box-shadow: inset 0px 0px 1px 1px red;
+    transition: ease-in 0.6s;
+
+}
+.contact_us_form textarea{
+    border: none;   
+    outline: none;
+    margin-top: 20px;
+    background-color: #e8ebf0;
+    margin-left: 20px;
+}
+.contact_us_form textarea:hover{
+    box-shadow: inset 0px 0px 1px 1px red;
+    transition: ease-in 0.6s;
+    
+}
+.contact_us_form button{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 83%;
+    background-color: red;
+    color: white;
+    font-size: 15px;   
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.contact_us_form button:hover{
+    background-color: green;
+    transition: ease-in 0.6s;
+}
+/* contact_us section ended--------------------------------- */
+/* footer part startd---------------------------------------*/
+
+.footer_sec{
+    height: 650px;
+    width: 100%;
+    float: left;
+    background-color: #09152d;
+}
+.logo_desc{
+    height: auto;
+    width: 25%;
+    float: left;
+    /* background-color: green; */
+    margin-left: 15%;
+    margin-top: 100px;
+}
+.logo_desc p{
+    width: 100%;
+    color: gray;
+    line-height: 1.5;
+    margin-top: 40px;
+}
+.links{
+    height: auto;
+    width: 10%;
+    float: left;
+    /* background-color: red; */
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.links h1{
+    font-family: arial;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+.links ul li{
+    list-style-type: none;
+    font-size: 15px;
+    color: gray;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+.links ul li:hover{
+    color: red;
+    transition: ease 0.6s;
+}
+.links ul li i{
+    margin-right: 15px;
+}
+.links i{
+    font-size: 15px;
+    margin-left: 5px;
+}
+/* links ended------------------------------ */
+.support{
+    height: auto;
+    width: 15%;
+    float: left;
+    /* background-color: yellow; */
+    margin-top: 100px;
+}   
+.support h1{
+    font-family: arial;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+.support ul li{
+    list-style-type: none;
+    font-size: 15px;
+    color: gray;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.support ul li:hover{
+    color: red;
+    transition: ease 0.6s;
+}
+.support ul li i{
+    margin-right: 15px;
+}
+.support i{
+    font-size: 15px;
+    margin-left: 5px;
+}
+/* soupport ended---------------------------------------- */
+.gallery{
+    height: auto;
+    width: 20%;
+    float: left;
+    /* background-color: green; */
+    margin-top: 100px;
+    margin-left: 5%;
+}
+.gallery h1{
+    font-family: arial;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+.gallery img{
+    height: 90px;
+    width: 90px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.gallery_up_btn{
+    height: 50px;
+    width: 50px;
+    float: right;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    margin-top: 200px;
+}
+.gallery_up_btn i{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+/* .gallery---------------------------------------------- */
+
+.admin{
+    height: 70px;
+    width: 100%;
+    float: left;
+    background-color: #060f20;
+    margin-top: 30px;
+}
+.admin h3{
+    color: gray;
+    font-size: 16px;
+    text-indent: 200px;
+    margin-top: 10px;
+}
+.admin h4{
+    color: red;
+    margin-left: 420px;
+    margin-top: -18px;
+}
+.admin h5{
+    color: gray;
+    font-size: 16px;
+    text-align: right;
+    margin-top: -10px;
+    margin-right: 300px;
+}
+.follow_us{
+   height: 30px;
+   width: 15%;
+   float: right;
+   /* background-color: red;  */
+   margin-right: 200px;
+   color: gray;
+}
+.follow_us i{
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+/* Footer ended------------------------------------------- */
+
+
